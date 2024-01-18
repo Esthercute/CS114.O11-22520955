@@ -79,6 +79,10 @@ Sau khi chạy một số thuật toán, thì ta thấy các accuracy chạy tr�
 Sau đó, khi cải tiến thuật toán XGB Classifier thì accuracy đã tăng lên 90% cho training test và 88% cho test set.
 ![image](https://github.com/Esthercute/CS114.O11-22520955/assets/87257260/b7ad04ed-01c8-4e5a-bb14-6718ffe09f0f)
 
-Ta có thể dùng mô hình này để dự đoán hành vi tiếp theo của các khách hàng trong những ngày tiếp theo.
+Kết quả thực tế khi chạy trên test.
 
-Team marketing và business analyst của công ty có thể dùng những kết quả đó để dự đón nhu cầu thị trường cũng như hành vi của khách hàng để đưa ra những giải pháp và chương trình khuyến mãi phù hợp cho việc phát triển doanh thu.
+![image](https://github.com/Esthercute/CS114.O11-22520955/assets/87257260/c885a9cb-c3f6-4637-91f5-c735827a69b7)
+
+![image](https://github.com/Esthercute/CS114.O11-22520955/assets/87257260/49c7a1fb-d05f-416f-abb8-2adf4b7e3dcb)
+
+
