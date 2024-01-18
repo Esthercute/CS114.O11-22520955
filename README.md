@@ -12,7 +12,7 @@ Nguyễn Anh Hải Ngọc – 22520955
 
 ## I. Mô tả bài toán
 - **Input:** Thông tin hóa đơn mua hàng của khách hàng.
-- **Output:** Dự đoán hành vi mua hàng của khách hàng đó trong 90 ngày sau kể từ lần cuối thanh toán
+- **Output:** Dự đoán hành vi mua hàng của khách hàng đó trong 90 ngày sau kể từ lần cuối thanh toán (có quay lại mua hàng hay không?)
 - **Mục tiêu:** Giúp xác định những khách hàng nào mà team martketing cần tập trung vào đối với các chương trình khuyến mãi tiếp theo mà họ chuẩn bị triển khai.
 
 ## II. Mô tả về bộ dữ liệu
