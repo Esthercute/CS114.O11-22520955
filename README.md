@@ -19,6 +19,7 @@ Nguyễn Anh Hải Ngọc – 22520955
 ### Mô tả chung
 - Nguồn: https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci/
 - Số lượng: 1,067,371 hàng, 8 cột
+- Train/test: 8/2
 - Mô tả:
 
 | Tên cột      | Mô tả     |
@@ -33,13 +34,11 @@ Nguyễn Anh Hải Ngọc – 22520955
 | Country    | Tên đất nước của khách hàng mua hàng |
 
 ### Cách thức xây dựng bộ dữ liệu
-#### Phân chia dữ liệu
+#### Xử lý dữ liệu
 Ta chia dữ liệu thành hai phần:
 - Dữ liệu hành vi mua hàng của khách hàng, tính theo những đơn hàng có ngày mua hàng trong khoảng từ 1/12/2009 đến 30/08/2011
 - Dữ liệu lần mua hàng đầu tiên tiếp theo, tính theo những đơn hàng có ngày mua hàng trong khoảng từ 1/9/2011 – 30/11/2011
 -> Mục tiêu: sử dụng dữ liệu hành vi để dự đoán ngày mua hàng đầu tiên của khách hàng trong ba tháng tới. Nếu không có mua thì cũng dự đoán luôn.
-
-#### Xử lý dữ liệu
 
 ![image](https://github.com/Esthercute/CS114.O11-22520955/assets/87257260/1620ac40-1e40-482f-b5ff-509efa24d57f)
 - Xét dataset ta thấy có nhiều giá trị null, nên bước đầu ta xóa các giá trị null trong dataset đi.
