@@ -54,10 +54,12 @@ Ta chia dữ liệu thành hai phần:
 ## III. Mô tả đặc trưng
 ### 1. Data engineering
 Để xây dựng mô hình, em sẽ dùng hệ thống RFM score trong kinh tế học.
+
 RFM score sẽ bao gồm các features:
 -	Recency: thời gian mua hàng gần nhất
 -	Frequency: tần suất mua hàng
 -	Monetary: giá trị tiền mỗi lần mua hàng
+  
 Dùng unsupervised learning để phân cụm khách hàng và cho điểm giá trị của khách hàng theo từng feature.
 
 ### 2. Data pipeline
@@ -69,7 +71,7 @@ Dùng unsupervised learning để phân cụm khách hàng và cho điểm giá 
 
 ## IV. Mô tả thuật toán máy học
 - Sử dụng K-means để phân cụm và “chấm điểm” các hành vi của khách hàng
-- Sử dụng các thuật toán Logistic Regression, GaussianNB, Random Forest Classifier, Deisio Tree Classifier, XGB Classifier, K-Neighbors Classifier để chạy và sử dụng thuật toán có accuracy cao nhất để cải tiến và đánh giá.
+- Sử dụng các thuật toán phân loại Logistic Regression, GaussianNB, Random Forest Classifier, Deisio Tree Classifier, XGB Classifier, K-Neighbors Classifier để chạy và sử dụng thuật toán có accuracy cao nhất để cải tiến và đánh giá.
 
 ## V. Đánh giá kết quả và kết luận
 Sau khi chạy một số thuật toán, thì ta thấy các accuracy chạy trên training set và test set đều trên 80%.
